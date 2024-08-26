@@ -1,0 +1,429 @@
+/*
+Theme Name: EduPress Theme
+Author: BrianCodeDev
+Description: Education Website.
+Version: 1.0.0
+
+*/
+.navbar  {
+    background-color: white;
+}
+.navbar button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  display: none;
+}
+.navbar button:hover,
+.navbar button:active,
+.navbar button:focus {
+  border: none;
+  outline: none;
+  display: none;
+}
+
+.navbar button i {
+  font-size: 25px;
+}
+.navbar .container .navbar-brand {
+    font-weight: 800;
+    color: black;
+    font-size: 20px;
+}
+.collapse .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: bold;
+}
+.collapse .navbar-nav .nav-item .nav-link:hover {
+  background-color: #F5F5F5;
+  color: #FF782D;
+  font-weight: bold;
+}
+.collapse .navbar-nav .nav-item .active {
+    background-color: #F5F5F5;
+    color: #FF782D;
+    font-weight: bold;
+}
+.searchInputWrapper {
+    position: relative;
+    margin-right: 30px;
+
+  }
+  
+  .searchInput {
+    width: 17rem;
+    height: 2rem;
+    padding: 0 1rem; 
+    border-radius: 2rem;
+    transition: transform 0.1s ease-in-out;
+    border: 1px solid rgb(171, 171, 171);
+
+  }
+  
+  ::placeholder {
+    color: #a1a1a1;
+  }
+  
+  /* hide the placeholder text on focus */
+  :focus::placeholder {
+    text-indent: -999px
+  }
+  
+  .searchInput:focus {
+    outline: none;
+    transform: scale(1.1);
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .searchInputIcon {
+    position: absolute;
+    right: 0.8rem;
+    top: 0.5rem;
+    color: #a1a1a1;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .container:focus-within > 
+  .searchInputWrapper > .searchInputIcon {
+    right: 0.2rem;
+  }
+  .d-flex .nav-item {
+    list-style-type: none;
+  }
+  .d-flex .nav-item a {
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  .hero-section {
+    height: 700px;
+    background-color: #e7ffde;
+  }
+  .hero-section .hero-display {
+    display: flex;
+  
+    padding-top: 150px;
+  }
+  .hero-section .hero-display .hero-two {
+    width: 60%;
+  }
+  .hero-two button {
+    padding: 10px 25px;
+    margin-top: 50px;
+  }
+  .hero-two .teacher-tools {
+    background-color: rgb(0, 72, 255);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .hero-two .learners {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .hero-two .districts {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .introduction-classes {
+    width: 90%;
+    background-color: #F5F5F5;
+    height: 2600px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .introduction-classes h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+  }
+  .introduction-classes {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+.introduction-classes .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.introduction-classes .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.introduction-classes .col {
+    flex: 1;
+    padding: 0 10px;
+}
+.math-grade-container, .test-prep-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item {
+    flex: 1 1 45%; /* Adjusts item width */
+    margin: 5px;
+    box-sizing: border-box;
+}
+.item a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+.stories .stories-display {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 60px;
+}
+.stories .stories-display .stories-one{
+ background-color: #e7ffde;
+ width: 100%;
+ height: 400px; 
+}
+.stories .stories-display .stories-two{
+  background-color: #ffffff;
+  width: 100%;
+  height: 400px; 
+  border: 1px solid black;
+  text-align: center;
+  
+}
+
+.stories-one {
+  align-content: center;
+  text-align: center;
+}
+.top-stories {
+  margin-top: 160px;
+}
+.top-stories .row .col button {
+  float: right;
+  padding: 10px 25px;
+  border-radius: 100px;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+.top-stories .card-group {
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.top-stories .card-group .card {
+  border: 1px solid black !important;
+  height: 200px;
+  border-radius: 6px !important;
+  text-align: center;
+  padding-top: 45px;
+}
+.top-stories .card-group .card-two {
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+}
+.top-stories .card-group .card img {
+  width: 30px !important;
+  margin: 0 auto;
+}
+.top-stories .card-group .card h2 {
+  font-size: 16px;
+}
+.top-courses {
+  margin-top: 160px;
+}
+.top-courses button {
+  float: right;
+  padding: 10px 25px;
+  border-radius: 100px;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+.top-courses .card-two {
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+  
+}
+.top-courses .card-group {
+  gap: 10px;
+  justify-content: center;
+}
+.top-courses .card-group .card {
+  height: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none !important;
+  border-radius: 15px !important;
+  max-width: 300px;
+  background-color: transparent;
+}
+.center-reviews .review-titles {
+  text-align: center;
+  margin-top: 180px;
+}
+.center-reviews .card-group {
+  justify-content: center;
+  gap: 10px;
+}
+.center-reviews .card {
+  max-width: 300px;
+  border: none;
+  background-color: transparent;
+ 
+}
+footer {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 50px 0;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 20px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.footer-col h4::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #f39c12;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-col ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+  color: #f39c12;
+}
+
+.social-links a {
+  color: #ffffff;
+  margin: 0 10px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #f39c12;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer-col {
+      width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-col {
+      width: 100%;
+  }
+}
+  @media only screen and (max-width: 1200px) {
+    .navbar button {
+      border: none;
+      outline: none;
+      background-color: transparent;
+      display: block;
+    }
+    .navbar button:hover,
+    .navbar button:active,
+    .navbar button:focus {
+      border: none;
+      outline: none;
+      display: block;
+    }
+    .stories .stories-display {
+      display: block;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 2360px;
+    }
+    .stories-one {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .stories-two {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .hero-section .hero-display {
+      display: flex;
+      justify-content: center;
+      align-items: center; /* Center the content vertically */
+      padding-top: 20px;
+      text-align: center;
+    }
+    .hero-section .hero-display .hero-one {
+      display: none;
+    }
+    .hero-section {
+      height: 700px;
+      background-color: #e7ffde;
+    }
+    .hero-two button {
+      padding: 10px 25px;
+      margin-top: 50px;
+      font-size: 15px !important;
+    }
+  }
+  
